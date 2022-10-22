@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(./img/formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(121, 180, 232);
+    padding: 3%;
+}
+
+nav{
+    margin: 35px 0 0 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0 60px 0 0;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+form{
+    background-color: rgba(68, 103, 92, 0.757);
+    margin: auto;
+    width: 500px;
+    border-radius: 18px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    margin: 45px 0 0 0;
+}
+
+input{
+    padding: 7px 50px 10px 10px;
+    border-radius: 10px;
+}
+
+.boton{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: violet;
+    color: white;
+}
+
+footer{
+    background: rgb(89, 108, 126);
+    padding: 0px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo{
+    height: 100px;
+}
+
+.nasas{
+    text-align: center;
+}
+
+.social-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icon{
+    height: 38px;
+    width: 38px;
+    border-radius: 38px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-image: url(https://cdn-icons-png.flaticon.com/128/1384/1384005.png);
+    background-position: center;
+    background-size: 100%; /*tamaño de iconos*/
+    background-repeat: no-repeat;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.social-icon:hover{
+    background-color: red;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(https://cdn-icons-png.flaticon.com/128/1384/1384015.png);
+    /* background-color: rgba(255, 255, 255, 0.623); */
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(https://cdn-icons-png.flaticon.com/128/1384/1384007.png);
+    /* background-color: #ff00f253; */
+}
+
+.social-icon:nth-of-type(4){
+    background-image: url(https://cdn-icons-png.flaticon.com/128/3669/3669691.png);
+    /* background-color: rgba(255, 255, 255, 0.623); */
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;  
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
